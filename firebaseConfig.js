@@ -3,7 +3,7 @@ import { getFirestore } from 'firebase/firestore';
 
 // Suas configurações reais do Firebase Console:
 const firebaseConfig = {
-  apiKey: "AIzaSyAbgwsTJooCi-VgBg9s75c9OJb9rnSC6wE",
+  apiKey: process.env.EXPO_PUBLIC_FIREBASE_API_KEY,
   authDomain: "app-idosos-60plus.firebaseapp.com",
   projectId: "app-idosos-60plus",
   storageBucket: "app-idosos-60plus.firebasestorage.app",
